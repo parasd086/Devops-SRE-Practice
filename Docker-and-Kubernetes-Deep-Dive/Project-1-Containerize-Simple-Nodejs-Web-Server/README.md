@@ -16,25 +16,27 @@ Before you begin, ensure you have the following installed on your machine:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/tiny-nodejs-app-dockerized.git
+   git clone https://github.com/parasd086/Devops-SRE-Practice.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd tiny-nodejs-app-dockerized
+   cd Devops-SRE-Practice/
+   cd Docker-and-Kubernetes-Deep-Dive/
+   cd Project-1-Containerize-Simple-Nodejs-Web-Server/
    ```
 
 3. Build the Docker image:
 
    ```bash
-   docker build -t username/tiny-node-app .
+   docker build -t my-username/tiny-node-app .
    ```
 
 4. Run the Docker container:
 
    ```bash
-   docker run -p 8080:8080 -d username/tiny-node-app
+   docker run -p 8080:8080 -d my-username/tiny-node-app
    ```
 
 ### Access the App on Browser
