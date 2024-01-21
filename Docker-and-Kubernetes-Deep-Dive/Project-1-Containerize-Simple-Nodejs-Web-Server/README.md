@@ -45,7 +45,7 @@ Open your browser and navigate to [http://localhost:8080](http://localhost:8080)
 
 ## Customization
 
-Feel free to modify the Node.js application in the `index.js` file to suit your preferences. Update the `Dockerfile` if additional dependencies or configurations are needed.
+Feel free to modify the Node.js application in the `index.js` file to suit your preferences. Update the `Dockerfile` if additional dependencies or configurations are needed. Happy Dockerizing! 🐳✨
 
 ## Contributions
 
