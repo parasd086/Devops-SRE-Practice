@@ -1,6 +1,6 @@
-# Containerize Tiny Node.js Web Server
+# Containerize Tiny ExpressJs Web Server
 
-This project serves as a hands-on guide for learning the basics of Docker by creating a simple Node.js application, containerizing it, and accessing it through a browser on your local machine. 🚀
+This project serves as a hands-on guide for learning the basics of Docker by creating a simple ExpressJs application, containerizing it, and accessing it through a browser on your local machine. 🚀
 
 ## Getting Started
 
@@ -9,7 +9,7 @@ This project serves as a hands-on guide for learning the basics of Docker by cre
 Before you begin, ensure you have the following installed on your machine:
 
 - [Docker](https://docs.docker.com/get-docker/)
-- [Node.js](https://nodejs.org/)
+- [ExpressJs](https://expressjs.com/)
 
 ### Build and Run the Docker Container
 
@@ -24,28 +24,28 @@ Before you begin, ensure you have the following installed on your machine:
    ```bash
    cd Devops-SRE-Practice/
    cd Docker-and-Kubernetes-Deep-Dive/
-   cd Project-1-Containerize-Simple-Nodejs-Web-Server/
+   cd Project-1-Containerize-Simple-ExpressJs-Web-Server/
    ```
 
 3. Build the Docker image:
 
    ```bash
-   docker build -t my-username/tiny-node-app .
+   docker build -t my-username/tiny-express-app .
    ```
 
 4. Run the Docker container:
 
    ```bash
-   docker run -p 8080:8080 -d my-username/tiny-node-app
+   docker run -p 8080:8080 -d my-username/tiny-express-app
    ```
 
 ### Access the App on Browser
 
-Open your browser and navigate to [http://localhost:8080](http://localhost:8080). You should see a simple "Hello, Docker!" message, indicating that the Node.js application is successfully running within the Docker container.
+Open your browser and navigate to [http://localhost:8080](http://localhost:8080). You should see a simple "Hello, Docker!" message, indicating that the ExpressJs application is successfully running within the Docker container.
 
 ## Customization
 
-Feel free to modify the Node.js application in the `index.js` file to suit your preferences. Update the `Dockerfile` if additional dependencies or configurations are needed. Happy Dockerizing! 🐳✨
+Feel free to modify the ExpressJs application in the `index.js` file to suit your preferences. Update the `Dockerfile` if additional dependencies or configurations are needed.
 
 ## Contributions
 
