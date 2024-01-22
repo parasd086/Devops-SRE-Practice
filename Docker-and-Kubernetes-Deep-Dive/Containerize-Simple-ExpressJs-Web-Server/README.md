@@ -24,7 +24,7 @@ Before you begin, ensure you have the following installed on your machine:
    ```bash
    cd Devops-SRE-Practice/
    cd Docker-and-Kubernetes-Deep-Dive/
-   cd Project-1-Containerize-Simple-ExpressJs-Web-Server/
+   cd Containerize-Simple-ExpressJs-Web-Server/
    ```
 
 3. Build the Docker image:
