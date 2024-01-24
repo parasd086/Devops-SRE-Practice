@@ -19,7 +19,7 @@ This project demonstrates the use of Docker Compose to create and manage two con
 1. Clone the repository and Navigate to the project directory:
 
    ```bash
-   git clone https://github.com/your-username/express-redis-docker-compose.git
+   git clone https://github.com/parasd086/Devops-SRE-Practice.git
    cd Devops-SRE-Practice/
    cd Docker-and-Kubernetes-Deep-Dive/
    cd Docker-Compose-With-Multiple-Local-Containers
@@ -69,6 +69,6 @@ Contributions, issues, and feedback are welcome! If you encounter any problems o
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/parasd086/Devops-SRE-Practice/blob/main/LICENSE) file for details.
 
 ---
