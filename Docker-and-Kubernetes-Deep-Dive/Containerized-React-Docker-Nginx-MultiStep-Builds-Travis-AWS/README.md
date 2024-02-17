@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# ReactCanvas CI/CD: Dockerized Create-React-App with Travis CI and AWS Elastic Beanstalk
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to ReactCanvas CI/CD, a project that combines the power of React, Docker, and a seamless Continuous Integration/Continuous Deployment (CI/CD) pipeline. This repository demonstrates the containerization of a default React application created with "create-react-app." Leveraging Docker, Nginx, Travis CI, and AWS Elastic Beanstalk, the project automates the deployment process, making it easier for developers to manage, test, and deploy their React applications.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+Before you start working with this project, ensure that you have the following tools and accounts set up:
 
-### `npm start`
+- [Node.js](https://nodejs.org/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Docker](https://www.docker.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Travis CI](https://travis-ci.org/)
 
-### `npm test`
+- [AWS](https://aws.amazon.com)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Local Build And Setup:
 
-### `npm run build`
+Follow these steps to clone and set up the project on your local machine:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.  Clone the Repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    git clone https://github.com/your-username/project-name.git
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2.  Navigate to the Project Directory:
 
-### `npm run eject`
+    ```bash
+    cd Devops-SRE-Practice/
+    cd Docker-and-Kubernetes-Deep-Dive/
+    cd Containerize-React-Docker-Nginx-Travis-AWS/
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3.  Build and Run the Development Version:
+    Launch the development version of the application with:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+        ```bash
+        docker-compose -f docker-compose-dev.yml up --build
+        ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Access the application at http://localhost:3000. Docker Compose automatically runs tests during setup.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/parasd086/Devops-SRE-Practice/blob/main/LICENSE) file for details.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
